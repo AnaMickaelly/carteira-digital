@@ -2,14 +2,13 @@ import React from "react";
 import GlobalStyles from "./styles/GlobalStyles";
 import Dashboard from "./pages/Dashboard";
 
-const App: React.FC = () => {
+const Dasboard: React.FC = () => {
     return (
         <>
             <GlobalStyles />
-            <Dashboard />
+            <Dasboard />
         </>
-
     )
 }
 
-export default App;
+export default Dasboard;
